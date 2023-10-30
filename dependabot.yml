@@ -1,0 +1,14 @@
+version: 1
+updates:
+  - package-ecosystem: "pip"
+    directory: "/base.pip"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "14:00"
+      timezone: "Asia/jakarta"
+    target-branch: "main"
+    reviewers: 
+      - "PowerRange"
+    open-pull-request-limit: 3
+      
