@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "14:00"
+      time: "14:25"
       timezone: "Asia/jakarta"
     target-branch: "main"
     reviewers: 
